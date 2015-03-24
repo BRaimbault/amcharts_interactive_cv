@@ -270,7 +270,7 @@ funSelectChart = function (eventS) {
         dataProvider.linkToObject = expdesc[event.item.dataContext.num].id;
         map.dataProvider = dataProvider;
         map.write("mapdiv");
-        document.getElementById("info").innerHTML = '<table border=0><tr><td><b>' + expdesc[event.item.dataContext.num].customData1 + '</b></td><td width=150px><img src="' + expdesc[event.item.dataContext.num].customData3 + '"/></td></tr></table><p>' + expdesc[event.item.dataContext.num].customData2 + '</p><p><a href="' + expdesc[event.item.dataContext.num].customData4 + '">Show more...</a></p>';
+        document.getElementById("info").innerHTML = '<table border=0><tr><td><b>' + expdesc[event.item.dataContext.num].customData1 + '</b></td><td align="right" width=150px><img src="' + expdesc[event.item.dataContext.num].customData3 + '"/></td></tr></table><p>' + expdesc[event.item.dataContext.num].customData2 + '</p><p><a href="' + expdesc[event.item.dataContext.num].customData4 + '">Show more...</a></p>';
 
 });
 
@@ -280,7 +280,7 @@ funSelectChart = function (eventS) {
             document.getElementById("info").innerHTML = 'Click on the map or on the timeline to display information';
             }
         else {
-            document.getElementById("info").innerHTML = '<table border=0><tr><td><b>' + event.mapObject.customData1 + '</b></td><td width=150px><img src="' + event.mapObject.customData3 + '"/></td></tr></table><p>' + event.mapObject.customData2 + '</p><p><a href="' + event.mapObject.customData4 + '">Show more...</a></p>';
+            document.getElementById("info").innerHTML = '<table border=0><tr><td><b>' + event.mapObject.customData1 + '</b></td><td align="right" width=150px><img src="' + event.mapObject.customData3 + '"/></td></tr></table><p>' + event.mapObject.customData2 + '</p><p><a href="' + event.mapObject.customData4 + '">Show more...</a></p>';
             }
           getChartDataColor(event.mapObject.num);
           chart.validateData();
