@@ -121,7 +121,7 @@ var expdesc = [
     "job": "Company", "startTime": "2013.750", "endTime": "2014.833"},
 
     {"id":"2014-BRC","num":"15",
-    "customData1": "2014-2015 (3 months by now) – GIS Analyst at BRC",
+    "customData1": "2014-2015 (4 months by now) – GIS Analyst at BRC",
     "customData2": "GIS and data management activities, International Programs (Disaster Risk Reduction)",
     "customData3": "http://raimbault.bru.free.fr/wp-content/uploads/11BRC.jpg",
     "customData4": "http://raimbault.bru.free.fr/?p=87",
